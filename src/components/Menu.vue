@@ -11,20 +11,20 @@
             <p class="text-primary-600 italic my-auto text-lg">Zuno library</p>
         </li>
           <li>
-            <button class="border hover:border-primary-500
-             focus:border-primary-500 bg-white focus:bg-white 
+            <button class="border hover:border-secondary-600
+             focus:border-secondary-600 focus:bg-white
              rounded-full text-primary-500 text-md px-8 py-2 mt-3" >Home</button>
         </li>
         <li>
-            <button class="border hover:border-primary-200 focus:border-primary-200
+            <button class="border hover:border-secondary-600 focus:bg-white focus:border-secondary-600
              rounded-full text-primary-400 text-md px-8 py-2 mt-3">Category</button>
         </li>
         <li>
-            <button class="border hover:border-primary-200 focus:border-primary-200
+            <button class="border hover:border-secondary-600 focus:bg-white focus:border-secondary-600
              rounded-full text-primary-400 text-md px-8 py-2 mt-3">Popular</button>
         </li>
         <li>
-            <button class="border hover:border-primary-200 focus:border-primary-200 
+            <button class="border hover:border-secondary-600 focus:bg-white focus:border-secondary-600 
             rounded-full text-primary-400 text-md px-8 py-2 mt-3">My pick</button>
         </li>
       </ul>
@@ -32,7 +32,7 @@
     </div>
     <div class="container flex flex-row justify-around w-24 mx-24">
       <CartIcon/>
-      <div class="CartIcon "> home</div>
+      <img class="w-7 h-7 rounded-full" src="../assets/images/avator.png" alt="Rounded avatar">
     </div>
   </div>
 </nav>
