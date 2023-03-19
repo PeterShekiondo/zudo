@@ -4,7 +4,7 @@
         <Menu :items="menuItems" trigger-text="Menu" />
       
         <div class="flex flex-row">
-          <div class="flex flex-col w-1/2  mt-24 ml-52">
+          <div class="flex flex-col w-1/2  mt-20 ml-52">
             <p class="text-6xl px-4 mb-4 bg-transaparent text-primary-500">
               Get your favourite 
             </p>
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="absolute bottom-28 px-52 ">
+        <div class="absolute bottom-32 px-52 ">
           <div class="flex flex-row mx-2 my-1">
             <div class="mt-1">
               <Fire/>
@@ -46,7 +46,7 @@
         </div>
       </header>
       
-      <section id="search" class="flex flex-row justify-center mt-52 mb-16"> 
+      <section id="search" class="flex flex-row justify-center mt-60 mb-16"> 
           <div class="container px-40">
             <Search/>
           </div>
