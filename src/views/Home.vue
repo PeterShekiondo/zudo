@@ -1,5 +1,12 @@
 <template>
-    <div class="container mx-auto my-8">
+    <div >
+        <header class="bg-secondary-500 w-full mb-8">
+        <Menu :items="menuItems" trigger-text="Menu" />
+        <div class="flex flex-row">
+          <div class="flex flex-col align-center w-1/2 p-4 bg-transaparent ">Object 1</div>
+          <div class="flex flex-row justify-center w-1/2 p-4 bg-transaparent">Object 2</div>
+        </div>
+        </header>
       <div class="grid grid-cols-3 gap-4">
         <Card
           v-for="item in cards"
@@ -10,9 +17,7 @@
         />
       </div>
   
-      <div class="my-8">
-        <Menu :items="menuItems" trigger-text="Menu" />
-      </div>
+      
     </div>
   </template>
   
