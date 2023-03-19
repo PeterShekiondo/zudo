@@ -4,7 +4,9 @@
         <Menu :items="menuItems" trigger-text="Menu" />
         <div class="flex flex-row">
           <div class="flex flex-col align-center w-1/2 p-4 bg-transaparent ">Object 1</div>
-          <div class="flex flex-row justify-center w-1/2 p-4 bg-transaparent">Object 2</div>
+          <div class="flex flex-row justify-center w-1/2 p-4 bg-transaparent">
+            <MainReading/>
+          </div>
         </div>
         </header>
       <div class="grid grid-cols-3 gap-4">
@@ -24,6 +26,7 @@
   <script>
   import Card from '@/components/Card.vue'
   import Menu from '@/components/Menu.vue'
+  import MainReading from '../assets/svg/MainReading.vue'
   
   export default {
     components: {
